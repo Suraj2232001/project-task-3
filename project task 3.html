@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset ="UTF-8">
+<title></title>
+</head>
+<body>
+<hr>
+<form action ="story.html" method ="GET">
+
+<label for ="name">Animal:</label>
+<input type ="text" id ="name" name ="Animal-1" placeholder ="eg. dog" required /><br><br>
+<label for ="name">Another Animal:</label>
+<input type ="text" id ="name" name ="Animal-2" placeholder ="eg. kukur" required /><br><br>
+<label for ="name">One More Animal:</label>
+<input type ="text" id ="name" name ="Animal-3" placeholder ="eg. kutwa" required /><br><br>
+<label for ="name">Adjective (past tense):</label>
+<input type ="text" id ="name" name ="adj-1" placeholder ="eg. got, had" required /><br><br>
+<label for ="name">Verb (ends in -ing)::</label>
+<input type ="text" id ="name" name ="verb-1" placeholder ="eg. singing, peeking" required /><br><br>
+<label for ="name">Number:</label>
+<input type ="number" id ="number" name ="num-1:" placeholder ="eg. 25" required /><br><br>
+<span> 
+<input type ="radio" id ="yes" name ="answer" value ="yes" required />
+<label for ="yes">yes</label>
+<input type ="radio" id ="no" name ="answer" value ="no" required />
+<label for ="no">no</label><br><br>
+</span>
+<label for ="speed">Relative speed (ends in -er):</label>
+<select id ="country" id ="speed" name ="speed" required />
+<option value ="slower">slower</option>
+<option value ="runner">runner</option>
+<option value="faster">faster</option>
+</select><br><br>
+<label for ="name">Motivational Quote:</label>
+<input list ="quote choices" placeholder ="'select'" required />
+<datalist id ="quote choices">
+<option value="winner gets ice cream!"></option>
+<option value="winner winner chicken dinner!"></option>
+<option value="i got supplies"></option>
+<option value="i need ammo"></option>
+<option value="none of the above"></option>
+</datalist><br><br>
+<label for ="name">Meaningful Message:</label><br>
+<textarea id ="name" name ="message" rows ="8" cols ="40" placeholder ="eg. winners never quit" required ></textarea><br>
+<input type ="submit" value ="Form My story!">
+</form>
+</body>
+</html>
